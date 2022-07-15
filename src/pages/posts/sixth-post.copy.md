@@ -1,6 +1,6 @@
 ---
 layout: '@/templates/BasePost.astro'
-title: Favorite coding problems - Path Exists
+title: Random fav coding problems - Path Exists
 description: First problem in series where I discuss random coding puzzles I find interesting.
 pubDate: 2022-07-14T18:11:17.960Z
 imgSrc: '/assets/images/image-post.jpeg'
@@ -85,8 +85,8 @@ def dfs(node) :
 ```
 
 ## A smart optimisation: pruning.
-Since in a dfs call, we explore node's all connections, if we dont find a path, next time there is no need to carry out those operations again.
-To achieve this, we simply remove all the nodes from its adj list.
+Since in a dfs call, we explore node's all connections, if we dont find a path, next time there is no need to carry out those operations again.<br/>
+To achieve this, we simply remove all the nodes from its adj list, prior return
 
 
 Finally,
