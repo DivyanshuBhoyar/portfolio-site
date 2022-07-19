@@ -32,6 +32,7 @@ export const Slider1 = () => {
         src="/assets/images/i-nodejs.png"
         alt="Nodejs icon"
       />
+
       <HeroSocial
         src="/assets/images/i-graphql.png"
         alt="Graphql icon"
@@ -43,16 +44,14 @@ export const Slider1 = () => {
         src="/assets/images/i-react.png"
         alt="React icon"
       />
+
       <HeroSocial
-        src="/assets/images/i-next.js.png"
+        src="/assets/images/i-kubernetes.png"
         alt="Twitter icon"
       />
+
       <HeroSocial
-        src="/assets/images/i-angularjs.png"
-        alt="Twitter icon"
-      />
-      <HeroSocial
-        src="/assets/images/i-tailwindcss.png"
+        src="/assets/images/i-serverless.svg"
         alt="Twitter icon"
       />
 
@@ -64,6 +63,10 @@ const Slider2 = () => {
   return (
     <Marquee duration={9000} reverse={true} height="3rem" className="rounded-md" background="#111827
     " >
+      <HeroSocial
+        src="/assets/images/i-angularjs.png"
+        alt="Twitter icon"
+      />
       {/* databases */}
       < HeroSocial
         src="/assets/images/i-postgresql.png"
@@ -86,6 +89,7 @@ const Slider2 = () => {
         src="/assets/images/i-cloudflare.png"
         alt="Twitter icon"
       />
+
       <HeroSocial
         src="/assets/images/i-google-firebase-console.png"
         alt="Twitter icon"
@@ -96,8 +100,13 @@ const Slider2 = () => {
         alt="Twitter icon"
       />
       <HeroSocial
-        src="/assets/images/i-kubernetes.png"
+        src="/assets/images/i-tailwindcss.png"
         alt="Twitter icon"
+      />
+      <img
+        src="/assets/images/i-webrtc.png"
+        alt="Twitter icon"
+        style={{ "height": 40 }}
       />
       <HeroSocial
         src="/assets/images/i-linux.png"

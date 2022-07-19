@@ -17,9 +17,7 @@ const ProjectList = () => (
     <div className="flex flex-col gap-6">
       <Project
         name="Ticket Sale Web App:  Microservices"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
+        description="A scalable e-commerce app built with distributed microservices. Implements event bus, concurrency controls and test driven developement."
         link="https://github.com/DivyanshuBhoyar/ticktet-ecomm-microsvc"
         img={{
           src: '/assets/images/project-web-design.png',
@@ -37,9 +35,7 @@ const ProjectList = () => (
       />
       <Project
         name="Realtime Chat: AWS Lambda"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
+        description="An entirely serverless chat application. Built on AWS lambda integrated with AWS API gateway"
         link="https://github.com/DivyanshuBhoyar/aws-lamda-chat"
         img={{ src: '/assets/images/project-fire.png', alt: 'Project Fire' }}
         category={
@@ -52,9 +48,7 @@ const ProjectList = () => (
       />
       <Project
         name="Concurrent downloader"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
+        description="A simple golang CLI program to download files. Divides a file into multiple subparts, and downloads concurrently."
         link="https://github.com/DivyanshuBhoyar/go-dl-concurrency"
         img={{ src: '/assets/images/project-maps.png', alt: 'Project Maps' }}
         category={
