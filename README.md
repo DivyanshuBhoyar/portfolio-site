@@ -1,5 +1,4 @@
-# Using Astro Boilerplate with TypeScript and Tailwind CSS [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
-
+# Using Astro Boilerplate with TypeScript and Tailwind CSS 
 
 
 Run the following command on your local environment:
