@@ -13,9 +13,9 @@ specifiers:
   '@typescript-eslint/eslint-plugin': ^5.28.0
   '@typescript-eslint/parser': ^5.28.0
   astro: 1.0.0-beta.44
-  astro-boilerplate-components: ^1.0.8
   astro-eslint-parser: ^0.2.2
   astro-imagetools: ^0.6.10
+  astro-portfolio-boilerplate-patched: ^1.1.2
   astro-robots-txt: ^0.3.2
   date-fns: ^2.28.0
   eslint: ^8.17.0
@@ -43,7 +43,7 @@ specifiers:
   typescript: ^4.7.4
 
 dependencies:
-  astro-boilerplate-components: 1.0.8_ae56dfum2jxsmlfps4fssi2ppu
+  astro-portfolio-boilerplate-patched: 1.1.2_ae56dfum2jxsmlfps4fssi2ppu
   date-fns: 2.28.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -1682,18 +1682,6 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /astro-boilerplate-components/1.0.8_ae56dfum2jxsmlfps4fssi2ppu:
-    resolution: {integrity: sha512-yQYcPJvZR1Lj8v3ffWHaAsbmkSKw0agsaikVLcDu5Q2Kfu4WnaUdXenM/fBWDtmdPSTK/T1ct6O7wbASQ93zaA==}
-    peerDependencies:
-      astro: 1.0.0-beta.44
-      date-fns: ^2.28.0
-      react: ^18.1.0
-    dependencies:
-      astro: 1.0.0-beta.44
-      date-fns: 2.28.0
-      react: 18.2.0
-    dev: false
-
   /astro-eslint-parser/0.2.2:
     resolution: {integrity: sha512-/b5kFxGN+e/YmRfilRF4YfgDqXC98mFlUxz+Ir2WlB2eL2yGXoSq/AJCGjvj5roJ5IsgQjPxfmvmIAGgCpfFTw==}
     engines: {node: ^14.17.0 || >=16.0.0}
@@ -1724,6 +1712,18 @@ packages:
     optionalDependencies:
       imagetools-core: 3.0.2
     dev: true
+
+  /astro-portfolio-boilerplate-patched/1.1.2_ae56dfum2jxsmlfps4fssi2ppu:
+    resolution: {integrity: sha512-kzWrDZBlEYszpM+4KzUUbM2H/j9aBmmVb/YypaFLggXGTLBdaZJzjALC5ZOys0hdQdZVbyHHaxhlvDJeMDkfBg==}
+    peerDependencies:
+      astro: 1.0.0-beta.44
+      date-fns: ^2.28.0
+      react: ^18.1.0
+    dependencies:
+      astro: 1.0.0-beta.44
+      date-fns: 2.28.0
+      react: 18.2.0
+    dev: false
 
   /astro-robots-txt/0.3.6:
     resolution: {integrity: sha512-aM4uV7kcgqrQhmyBbSmOw21YvnduirtqAHmm1oxgJ6wOlYo9JAcW9wZRtfW//JSGKwspCI52YNDCHs01pMTyEQ==}

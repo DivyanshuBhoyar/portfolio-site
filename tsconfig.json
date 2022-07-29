@@ -46,6 +46,6 @@
     "src/**/*.ts",
     "src/**/*.tsx",
     "src/**/*.astro",
-    "src/partials/StackSlider.tsx"
+    "src/partials/HeroTechBanner.tsx"
   ]
 }

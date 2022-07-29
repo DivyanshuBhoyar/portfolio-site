@@ -2,9 +2,9 @@ import {
   GradientText,
   HeroAvatar,
   Section,
-} from 'astro-boilerplate-components';
+} from 'astro-portfolio-boilerplate-patched';
 
-import { StackSlider } from './StackSlider';
+import { HeroTechBanner } from './HeroTechBanner';
 
 const Hero = () => (
   <Section>
@@ -30,13 +30,13 @@ const Hero = () => (
       }
       avatar={
         <img
-          className="frame h-80 w-64"
-          src="/assets/images/frame-me.png"
+          className="frame h-72 w-auto"
+          src="/assets/images/p-frame.png"
           alt="Avatar image"
-          loading="lazy"
+          loading="eager"
         />
       }
-      socialButtons={<StackSlider />}
+      socialButtons={<HeroTechBanner />}
     />
   </Section>
 );

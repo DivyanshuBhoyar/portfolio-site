@@ -4,7 +4,7 @@ import {
   Project,
   Section,
   Tags,
-} from 'astro-boilerplate-components';
+} from 'astro-portfolio-boilerplate-patched';
 
 const ProjectList = () => (
   <Section
