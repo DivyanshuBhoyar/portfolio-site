@@ -21,7 +21,7 @@ export const Thanks = () => {
           <div className="flex grow basis-96 items-center justify-center  px-2 ">
             <h4 className="text-center">
               {teachers.map((t) => (
-                <ThanksName name={t.name} href={t.href} />
+                <ThanksName key={t.name} name={t.name} href={t.href} />
               ))}
             </h4>
           </div>
