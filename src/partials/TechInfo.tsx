@@ -18,10 +18,10 @@ const TechContent = () => {
           <div className="m-1 inline-block bg-gradient-to-r from-yellow-100 via-yellow-300 to-yellow-500 bg-clip-text px-1 font-bold   text-transparent ">
             fiber (Go)
           </div>
-          <div className="m-1 inline-block bg-gradient-to-r from-yellow-100 via-yellow-300 to-yellow-500 bg-clip-text px-1 font-bold   text-transparent ">
+          <div className="m-1  inline-block bg-gradient-to-r from-yellow-100 via-yellow-300 to-yellow-500 bg-clip-text px-1 font-mono font-bold   text-transparent ">
             websockets
           </div>
-          <div className="m-1 inline-block bg-gradient-to-r from-yellow-100 via-yellow-300 to-yellow-500 bg-clip-text px-1 font-bold   text-transparent ">
+          <div className="m-1 inline-block bg-gradient-to-r from-yellow-100 via-yellow-300 to-yellow-500 bg-clip-text px-1 font-mono font-bold tracking-wide   text-transparent ">
             microservices
           </div>
           <div className="m-1 inline-block bg-gradient-to-r from-yellow-100 via-yellow-300 to-yellow-500 bg-clip-text px-1 font-bold   text-transparent ">

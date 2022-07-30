@@ -11,6 +11,8 @@ import { AppConfig } from '@/utils/AppConfig';
 import { sortByDate } from '@/utils/Posts';
 import { Thanks } from '@/partials/Thanks';
 
+import "../utils/globals.css"
+
 const allPosts = await Astro.glob<IFrontmatter>('./posts/*.md');
 const sortedPosts = sortByDate(allPosts);
 const lastThreePosts = sortedPosts.slice(0, 3);

@@ -15,7 +15,7 @@ specifiers:
   astro: 1.0.0-beta.44
   astro-eslint-parser: ^0.2.2
   astro-imagetools: ^0.6.10
-  astro-portfolio-boilerplate-patched: ^1.1.2
+  astro-portfolio-boilerplate-patched: ^1.1.4
   astro-robots-txt: ^0.3.2
   date-fns: ^2.28.0
   eslint: ^8.17.0
@@ -43,7 +43,7 @@ specifiers:
   typescript: ^4.7.4
 
 dependencies:
-  astro-portfolio-boilerplate-patched: 1.1.2_ae56dfum2jxsmlfps4fssi2ppu
+  astro-portfolio-boilerplate-patched: 1.1.4_ae56dfum2jxsmlfps4fssi2ppu
   date-fns: 2.28.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -1713,8 +1713,8 @@ packages:
       imagetools-core: 3.0.2
     dev: true
 
-  /astro-portfolio-boilerplate-patched/1.1.2_ae56dfum2jxsmlfps4fssi2ppu:
-    resolution: {integrity: sha512-kzWrDZBlEYszpM+4KzUUbM2H/j9aBmmVb/YypaFLggXGTLBdaZJzjALC5ZOys0hdQdZVbyHHaxhlvDJeMDkfBg==}
+  /astro-portfolio-boilerplate-patched/1.1.4_ae56dfum2jxsmlfps4fssi2ppu:
+    resolution: {integrity: sha512-Lj/hQ1JdvOy1gDrGsxQVk1jqIuzzZKrEU40b2in4oELDxq/SV79Km6ZbJOwQwV2DQKcqqUMwGzGe2R99eYYY7Q==}
     peerDependencies:
       astro: 1.0.0-beta.44
       date-fns: ^2.28.0
