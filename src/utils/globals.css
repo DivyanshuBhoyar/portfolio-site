@@ -3,5 +3,28 @@
 @tailwind utilities;
 
 .tech-item {
-  @apply m-1 inline-block font-mono tracking-wide bg-clip-text px-1  text-transparent
+  @apply m-1 text-lg inline-block font-mono tracking-wide bg-clip-text px-1 text-transparent
+}
+
+.grad1 {
+@apply bg-gradient-to-br from-green-300 via-cyan-200 to-violet-300  
+}
+
+.grad2 {
+  @apply bg-gradient-to-tl from-pink-200 via-blue-100 to-lime-400
+
+}
+
+.grad3 {
+  @apply bg-gradient-to-br from-pink-200 via-blue-100 to-yellow-300
+
+}
+
+.grad4 {
+  @apply bg-gradient-to-tr from-teal-100 to-pink-400
+}
+
+.grad0 {
+  @apply bg-gradient-to-r from-yellow-100 via-yellow-200 to-orange-300
+
 }
