@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tech-item {
+  @apply m-1 inline-block font-mono tracking-wide bg-clip-text px-1  text-transparent
+}

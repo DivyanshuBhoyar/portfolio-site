@@ -8,8 +8,8 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        marquee: 'marquee 12s linear infinite',
-        marquee2: 'marquee2 12s linear infinite',
+        marquee: 'marquee 18s linear infinite',
+        marquee2: 'marquee2 18s linear infinite',
       },
       keyframes: {
         marquee: {
