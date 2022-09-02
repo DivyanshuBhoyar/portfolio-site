@@ -10,7 +10,7 @@ const Hero = () => (
   <Section>
     <HeroAvatar
       title={
-        <div className="font-extrabold tracking-wide">
+        <div className="font-2xl font-extrabold tracking-wide">
           Hi there, I'm <GradientText>Divyanshu Bhoyar</GradientText> 👋
         </div>
       }

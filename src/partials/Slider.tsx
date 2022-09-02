@@ -33,12 +33,12 @@ const Slider2 = () => {
     <div className="relative mx-auto flex w-11/12 overflow-x-hidden">
       <div className="animate-marquee whitespace-nowrap py-4">
         <HeroSocial
-          className="mx-2 inline"
+          className="mx-2 inline "
           src="/assets/images/i-angularjs.png"
           alt="Twitter icon"
         />
         <HeroSocial
-          className="mx-2 inline"
+          className="mx-2 inline "
           src="/assets/images/i-postgresql.png"
           alt="Postgres icon"
         />

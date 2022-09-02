@@ -8,19 +8,19 @@ const TechContent = () => {
       <Slider2 />
       <ul>
         <li className="py-2">
+          <h3 className="text-xl font-medium">Currently learning</h3>
+          <div className="tech-item grad5 ">microservices</div>
+          <div className="tech-item grad5 ">event-bus</div>
+          <div className="tech-item grad5 ">grpc</div>
+        </li>
+        <li className="py-2">
           <h3 className="text-xl font-medium">Backend</h3>
           <div className="tech-item grad0 ">fastAPI</div>
           <div className="tech-item grad0  ">express</div>
           <div className="tech-item grad0  ">fiber (Go)</div>
           <div className="tech-item  grad0  ">websockets</div>
-          <div className="tech-item grad0  ">microservices</div>
           <div className="tech-item grad0  ">graphQL</div>
-          <div className="tech-item grad0  ">apollo-server</div>
-          <div className="tech-item grad0  ">tRPC</div>
-          <div className="tech-item grad0  ">gRPC</div>
           <div className="tech-item grad0  ">jwt</div>
-          <div className="tech-item grad0  ">event-bus</div>
-          <div className="tech-item grad0  ">fastify-js</div>
           <div className="tech-item grad0  ">REST</div>
           <div className="tech-item grad0  ">aws-lambda</div>
           <div className="tech-item grad0  ">stripe</div>
@@ -43,9 +43,7 @@ const TechContent = () => {
           <div className="tech-item  grad2 ">firebase</div>
           <div className="tech-item  grad2 ">serverless-framework</div>
           <div className="tech-item  grad2 ">docker</div>
-          <div className="tech-item  grad2 ">Kubernetes</div>
-          <div className="tech-item  grad2 ">vercel</div>
-          <div className="tech-item  grad2 ">digitalocean</div>
+          <div className="tech-item  grad2 ">kubernetes</div>
           <div className="tech-item  grad2 ">github-actions</div>
         </li>
         <li className="py-2">
@@ -54,7 +52,6 @@ const TechContent = () => {
           <div className="tech-item grad1  ">react-query</div>
           <div className="tech-item grad1  ">angular</div>
           <div className="tech-item grad1  ">tailwind-css</div>
-          <div className="tech-item grad1  ">styled-components</div>
           <div className="tech-item grad1  ">material-ui</div>
           <div className="tech-item grad1  ">mantine-ui</div>
           <div className="tech-item grad1  ">sass</div>
