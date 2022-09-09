@@ -5,6 +5,7 @@ import {
 } from 'astro-portfolio-boilerplate-patched';
 
 import { HeroTechBanner } from './HeroTechBanner';
+import { Slider2 } from './Slider';
 
 const Hero = () => (
   <Section>
@@ -38,6 +39,7 @@ const Hero = () => (
       }
       socialButtons={<HeroTechBanner />}
     />
+    <Slider2 />
   </Section>
 );
 

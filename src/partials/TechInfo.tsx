@@ -1,11 +1,8 @@
 import { GradientText, Section } from 'astro-portfolio-boilerplate-patched';
 
-import { Slider2 } from './Slider';
-
 const TechContent = () => {
   return (
     <>
-      <Slider2 />
       <ul>
         <li className="py-2">
           <h3 className="text-xl font-medium">Currently learning</h3>
