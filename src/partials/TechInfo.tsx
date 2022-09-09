@@ -30,7 +30,7 @@ const TechContent = () => {
           <div className="tech-item grad3 ">mongo-db</div>
           <div className="tech-item  grad3 ">postgres</div>
           <div className="tech-item grad3 ">redis</div>
-          <div className="tech-item grad3 ">firestore</div>
+          {/* <div className="tech-item grad3 ">firestore</div> */}
           <div className="tech-item grad3 px-1  ">mysql</div>
           <div className="tech-item grad3 ">mongoose (ORM)</div>
           <div className="tech-item grad3 ">typeorm (ORM)</div>
@@ -59,14 +59,14 @@ const TechContent = () => {
           <div className="tech-item grad1  ">astro-js</div>
           <div className="tech-item grad1  ">flutter</div>
         </li>
-        <li className="py-2">
+        {/* <li className="py-2">
           <h3 className="text-xl font-medium">Other tools</h3>
           <div className="tech-item  grad4 ">jest</div>
           <div className="tech-item  grad4 ">cypress</div>
           <div className="tech-item  grad4 ">postman</div>
           <div className="tech-item  grad4 ">git</div>
           <div className="tech-item  grad4 ">figma</div>
-        </li>
+        </li> */}
       </ul>
     </>
   );
@@ -76,9 +76,9 @@ const TechInfo = () => {
   return (
     <Section
       title={
-        <>
+        <div id="tech">
           <GradientText>Tech</GradientText> I use
-        </>
+        </div>
       }
       children={
         <>

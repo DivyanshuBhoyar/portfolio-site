@@ -30,7 +30,7 @@ import { HeroSocial } from 'astro-portfolio-boilerplate-patched';
 
 const Slider2 = () => {
   return (
-    <div className="relative mx-auto flex w-11/12 overflow-x-hidden">
+    <div className="w-12/12 relative mx-auto flex overflow-x-hidden">
       <div className="animate-marquee whitespace-nowrap py-4">
         <HeroSocial
           className="mx-2 inline "
