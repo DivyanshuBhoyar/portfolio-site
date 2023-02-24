@@ -9,7 +9,7 @@ import {
 const Navbar = () => (
   <Section>
     <NavbarTwoColumns>
-      <a href="/">
+      <a href="/" className = "font-mono" >
         <Logo
           icon={
             <svg
@@ -28,7 +28,7 @@ const Navbar = () => (
               <path d="M4 20h14"></path>
             </svg>
           }
-          name="127.0.0.1 : mysite"
+          name="~/dev"
         />
       </a>
 
